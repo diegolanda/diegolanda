@@ -1,81 +1,57 @@
 # 👋 Hi, I'm Diego Landa
 
-**Principal / Staff-leaning Full-Stack Engineer (15+ yrs)** — **TypeScript, React/Next.js, Node (Fastify/Express), AWS**  
-I build and modernize products across US, LATAM, and EU teams (incl. Sweden), with a focus on **platform/IAM**, **reliability**, and **developer velocity**.
+**Principal / Staff-leaning Full-Stack Engineer with 15+ years of experience** · **TypeScript, React, Next.js, Node.js, PostgreSQL, and AWS**
 
----
+I build and modernize products with teams across the US, Latin America, and Europe. My work focuses on platform engineering, identity, reliability, and developer velocity.
 
-## What I focus on
+## What I work on
 
-- **Platform & Identity:** authentication/session flows, IAM modules, access control (RBAC/ABAC) foundations
-- **Full-stack TypeScript:** React/Next.js + Node + PostgreSQL
-- **Reliability & observability:** tracing/metrics, error reporting, performance tuning
-- **Testing & delivery:** BDD (Cucumber), E2E, CI/CD, release automation
-- **AI-assisted workflows:** pragmatic LLM integration + local-first indexing/chat experiments
+- **Platform and identity:** Authentication, session flows, IAM modules, and access control foundations using RBAC and ABAC.
+- **Full-stack products:** React and Next.js frontends backed by Node.js services and PostgreSQL.
+- **Reliability:** Observability, error reporting, performance tuning, and systems that continue to work under difficult network conditions.
+- **Testing and delivery:** BDD with Cucumber, end-to-end tests, CI/CD, and release automation.
+- **AI-assisted systems:** Local-first tools, agent workflows, and practical LLM integrations that preserve engineering judgment.
 
----
+## Current projects
 
-## Featured projects
+### [reboot.md](https://reboot.md)
 
-### ✅ KeepMeHonest
-A CLI/tooling project to keep implementation aligned with a plan (especially when working with AI coding assistants): small steps, clear checkpoints, less drift.
+A public visual log about moving from engineering employment and consulting toward product-led businesses. The site publishes notes, decisions, experiments, and active product work in formats for people and machines.
 
-**Quickstart (canonical command):**
-```bash
-npx @mejor/keepmehonest@latest init
-```
+Built with Next.js, TypeScript, Markdown, static generation, RSS, JSON Feed, and public JSON endpoints.
 
-**Common follow-ups**
-```bash
-npx @mejor/keepmehonest@latest --help
-# (If you installed it as a direct CLI binary)
-kmh --help
-```
+### [PDF Reader](https://github.com/diegolanda/pdf-reader)
 
-> If your setup uses a different executable name, `--help` will show the available commands.
+A local tool that turns PDFs into clean text for ElevenReader and other text-to-speech apps. It inspects every page, uses OCR only where needed, reconstructs reading order, and reports pages that need review.
 
-### 📰 Kudos Ideas Chronicles
-A Victorian-newspaper style “chronicle” of modern software work: build logs, experiments, and lessons learned across full-stack systems, AI tooling, and engineering initiatives (including workshops, events, and templates/playbooks).
+Available as a standalone Python CLI and a portable Agent Skill for Claude Code, Codex, and compatible agents.
 
-- Focus: **decisions + outcomes** (what worked, what didn’t, what I’d change)
-- Topics: platform work, product iterations, developer experience, AI-assisted building
+### [Privado.sh](https://privado.sh)
 
-**Website:** https://kudosideas.com
+A zero-knowledge service for sharing secrets and files. The browser encrypts content before upload, so the API stores only ciphertext and metadata.
 
----
+Built as a TypeScript monorepo with Next.js, Express, Supabase, browser-side encryption, OIDC authentication, and a CLI.
 
-## Career highlights (selected)
+## Selected career highlights
 
-- **IAM modernization:** session/auth architecture improvements; safe migrations and deprecation of legacy patterns
-- **Audit-ready testing:** BDD + reporting flows to support compliance needs and reduce release friction
-- **Klarna work:** semantic-release automation; reusable UI foundations; reliability improvements for low-connectivity user flows
-- **Mentorship & hiring:** coached engineers, ran workshops, supported interview loops and technical assessments
+- Modernized authentication and session architecture, including safe migrations away from legacy patterns.
+- Built BDD and reporting workflows that supported audit requirements and reduced release friction.
+- At Klarna, introduced semantic-release automation and reusable UI foundations. I also improved low-connectivity user flows.
+- Mentored engineers, ran workshops, and supported hiring through interviews and technical assessments.
 
----
+## Teaching and workshops
 
-## Teaching & workshops
+- Simulation and Modeling — Salesian University
+- E-R Database Design, SQL, and Microsoft Access — Save the Children
+- Teaching Assistant, Introduction to Programming — Salesian University
 
-- Simulation & Modeling — Salesian University
-- E-R Database Design / SQL / Microsoft Access — Save the Children (workshop series)
-- Teaching Assistant — Intro to Programming (Salesian University)
+## Core technologies
 
----
+TypeScript · JavaScript · React · Next.js · Node.js · Fastify · Express · PostgreSQL
 
-## Tech I use most
-
-**TypeScript, JavaScript, React, Next.js, Node.js, Fastify, Express, PostgreSQL**  
-**AWS (Lambda/S3/API Gateway/ECS/CloudWatch), CI/CD, Docker, Cucumber/Jest/Cypress**
-
----
+AWS Lambda · S3 · API Gateway · ECS · CloudWatch · Docker · Cucumber · Jest · Cypress
 
 ## Connect
 
-- LinkedIn: https://www.linkedin.com/in/dlanda
-- Email: diegolanda@msn.com
-
----
-
-## GitHub stats
-
-![Diego's GitHub stats](https://github-readme-stats.vercel.app/api?username=diegolanda&show_icons=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=diegolanda&layout=compact)
+- [LinkedIn](https://www.linkedin.com/in/dlanda)
+- [Email](mailto:diegolanda@msn.com)
